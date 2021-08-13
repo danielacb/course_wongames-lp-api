@@ -21,8 +21,8 @@
       "repeatable": false,
       "component": "page.button"
     },
-    "media": {
-      "collection": "file",
+    "image": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",

@@ -2,14 +2,15 @@
   "collectionName": "components_page_social_links",
   "info": {
     "name": "socialLinks",
-    "icon": "address-book"
+    "icon": "address-book",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "enumeration",
       "enum": [
-        "GitHub",
+        "Github",
         "Twitter",
         "Dribbble",
         "LinkedIn",

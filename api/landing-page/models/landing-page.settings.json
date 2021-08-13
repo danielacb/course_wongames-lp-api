@@ -54,24 +54,6 @@
       "component": "page.pricing-box",
       "required": true
     },
-    "totalPrice": {
-      "type": "integer",
-      "required": true,
-      "default": 415
-    },
-    "numberInstallments": {
-      "type": "integer",
-      "required": true
-    },
-    "priceInstallments": {
-      "type": "integer",
-      "required": true
-    },
-    "benefits": {
-      "type": "richtext",
-      "default": "Create item as bullet list",
-      "required": true
-    },
     "button": {
       "type": "component",
       "repeatable": false,
@@ -94,6 +76,12 @@
       "type": "component",
       "repeatable": false,
       "component": "page.section-faq"
+    },
+    "sectionModules": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-modules",
+      "required": true
     }
   }
 }
